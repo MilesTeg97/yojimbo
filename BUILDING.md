@@ -3,11 +3,15 @@ Building yojimbo
 
 ## Building on Windows
 
-Download [premake 5](https://premake.github.io/download.html) and copy the **premake5** executable somewhere in your path. Please make sure you have at least premake5 alpha 13.
+Download [premake 5](https://premake.github.io/download) and copy the **premake5** executable somewhere in your path. Please make sure you have at least premake5 alpha 13.
 
 You need Visual Studio to build the source code. If you don't have Visual Studio 2019 you can [download the community edition for free](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16).
 
 Once you have Visual Studio installed, go to the command line under the yojimbo directory and type:
+
+    premake5 vs2019
+
+(for VS2022 use "vs2022") then
 
     premake5 solution
 
